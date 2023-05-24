@@ -10,3 +10,10 @@ Nadim:
 Of the data we do have, there are some parameters in it eg. Landslide votes for favourite food, grade, all of which effect our machine learning as it would be trained on only one set of data due to a lack of variety. In my opinion, I don't know how accurate the ML model would be since it is taking categorical data and turning it into numerical data, which the model would calculate in absurd ways we do not know of- especially with the very little entries of data. This could be a problem for the accuracy of the model since there's no level of grading for these outputs.  
 
 In conclusion, our biggest error with this project was the lack of data, which we could not control. We also used very impartial data which, as mentioned in the previous paragraph, could lead to lack of variety in the ML model.
+
+### Resources:  
+
+[Learning Tensorflow and Preprocessing CSVs](https://www.tensorflow.org/tutorials/load_data/csv)
+[Pandas Documentation](https://pandas.pydata.org/docs/user_guide/index.html)
+
+
