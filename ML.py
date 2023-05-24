@@ -8,7 +8,7 @@ np.set_printoptions(precision=3, suppress=True)
 
 normalize = layers.Normalization()
 
-csv_data = (pd.read_csv("https://raw.githubusercontent.com/RyanPhitHub/Ryan-Comp-Eng-Projects/main/Objective%20Compaitibility%20Quiz%20(Responses)%20-%20Form%20Responses%201(2).csv", sep= ',', engine = 'python', header= 0)).drop(["Score"], axis = 1)
+csv_data = (pd.read_csv("https://raw.githubusercontent.com/RyanPhitHub/ML/main/compatibilityData.csv", sep= ',', engine = 'python', header= 0)).drop(["Score"], axis = 1)
 print(csv_data)
 csv_features = csv_data.copy()
 csv_labels = csv_features.pop('Total score')
