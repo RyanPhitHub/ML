@@ -13,7 +13,7 @@ In conclusion, our biggest error with this project was the lack of data, which w
 
 ### Resources:  
 
-[Learning Tensorflow and Preprocessing CSVs](https://www.tensorflow.org/tutorials/load_data/csv)
+[Learning Tensorflow and Preprocessing CSVs](https://www.tensorflow.org/tutorials/load_data/csv)  
 [Pandas Documentation](https://pandas.pydata.org/docs/user_guide/index.html)
 
 
